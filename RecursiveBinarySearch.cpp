@@ -10,9 +10,9 @@ bool RecursiveBinarySearch::search(std::vector<int> list, int beginning, int end
         return false;
     }
     int middle = (beginning+end)/2;
-    std::cout<<"beginning: "<<beginning<<std::endl;
-    std::cout<<"end: "<<end<<std::endl;
-    std::cout<<"Middle: "<<middle<<std::endl;
+    //std::cout<<"beginning: "<<beginning<<std::endl;
+    //std::cout<<"end: "<<end<<std::endl;
+    //std::cout<<"Middle: "<<middle<<std::endl;
     //found
     if(to_find==list[middle]){
         return true;
