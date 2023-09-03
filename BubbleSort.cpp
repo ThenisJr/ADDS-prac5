@@ -2,7 +2,7 @@
 #include <string>
 #include<iostream>
 
-std::vector<int> BubbleSort::sort(std::vector<int> list){
+std::vector<int> BubbleSort::sort(std::vector<int> &list){
     //std::cout<<list.size()<<std::endl;
     //loop for the size of list
     for(int i = list.size()-1;i>0;i--){
