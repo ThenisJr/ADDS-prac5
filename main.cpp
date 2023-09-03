@@ -1,5 +1,4 @@
 #include "BubbleSort.h"
-#include "QuickSortL.h"
 #include "QuickSort.h"
 #include <vector>
 #include <iostream>
